@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('https://cdn.pixabay.com/photo/2016/06/21/16/21/wedge-1471409_1280.jpg') center/cover no-repeat; /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem de fundo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
